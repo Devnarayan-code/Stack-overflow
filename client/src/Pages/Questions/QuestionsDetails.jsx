@@ -78,7 +78,7 @@ let QuestionsDetails = () => {
   const dispatch = useDispatch()
   const User = useSelector((state) => (state.currentUserReducer))
   const location = useLocation()
-  const url = 'https://stackoverflowclone-ms1v.onrender.com'
+  const url = 'https://stack-overflow-chi.vercel.app'
 
   const handlePostAns = (e, answerLength) => {
      e.preventDefault()
